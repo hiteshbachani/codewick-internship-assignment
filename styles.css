@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    
+     margin: 0px 150px;
+     margin-top: 67px;
+
+}
+
+:root {
+    --background-color: #282828;
+    --primary-color: #30FBEF;
+    --secondary-color: #FFFFFF;
+    
+}
+
+.navigation {
+    background-color: var(--background-color);
+    max-width: 1300px;
+    /* max-height: 60px; */
+    
+   
+    
+    
+   
+}
+
+.navigation .nav-brand {
+    text-align: left;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-style: normal;
+    font-size: 26px;
+    
+    
+   
+  
+   
+  
+    
+}
+
+
+
+.link-primary {
+    color: var(--primary-color);
+    text-decoration: none;
+
+}
+
+
+
+
+.link-secondary {
+    color: var(--secondary-color);
+    text-decoration: none;
+
+    
+}
+
+.button-primary {
+    color: var(--primary-color);
+
+}
+
+.button-secondary {
+    background-color: var(--background-color);
+}
+
+.list-item-inline {
+    display: inline;
+    font-size: 16px;
+    
+
+
+}
+
+/* ul {
+    display: none;
+} */
+
+.navigation .nav-pills {
+    text-align: right;
+
+    
+}
